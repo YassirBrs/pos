@@ -70,18 +70,18 @@ $lang['customer'					]	=		'Customer';
 $lang['expense'						]	=		'Expense';
 $lang['confirm_update_record'		]	=		'Do You Wants to Update Record ?';
 
-$lang['company_name'				]	=		'Company Name';
-$lang['mobile'						]	=		'Mobile';
+$lang['company_name'				]	=		'Nom de societe';
+$lang['mobile'						]	=		'Telephone';
 $lang['email'						]	=		'Email';
 $lang['phone'						]	=		'Phone';
-$lang['gst_number'					]	=		'GST Number';
-$lang['vat_number'					]	=		'VAT Number';
-$lang['tax_number'					]	=		'TAX Number';
-$lang['website'						]	=		'Website';
-$lang['city'						]	=		'City';
-$lang['postcode'					]	=		'Postcode';
+$lang['gst_number'					]	=		' ';
+$lang['vat_number'					]	=		'Numéro de TVA';
+$lang['tax_number'					]	=		'Numéro de taxe';
+$lang['website'						]	=		'Siteweb';
+$lang['city'						]	=		'Ville';
+$lang['postcode'					]	=		'Code Postal';
 $lang['address'						]	=		'Address';
-$lang['warehouse'						]	=		'Warehouse';
+$lang['warehouse'						]	=		'Entrepôt';
 $lang['units_list'						]	=		'Units List';
 /* 21-05-2019*/
 $lang['current_password'			]	=		'Current Password';
@@ -161,16 +161,16 @@ $lang['new_invoice'			]	=		'New Invoice';
 $lang['hold_list'			]	=		'Hold List';
 $lang['quantity'			]	=		'Quantity';
 $lang['price_including_tax'			]	=		'Price inc.Tax';
-$lang['subtotal'			]	=		'Subtotal';
+$lang['subtotal'			]	=		'Sous Totale';
 $lang['unit_price'			]	=		'Unit Price';
 $lang['discount'			]	=		'Discount';
 $lang['total_amount'			]	=		'Total Amount';
 $lang['action'			]	=		'Action';
 $lang['total_quantities'			]	=		'Total Quantities';
-$lang['other_charges'			]	=		'Other Charges';
-$lang['discount_on_all'			]	=		'Discount on All';
+$lang['other_charges'			]	=		'Charges';
+$lang['discount_on_all'			]	=		'Promotion';
 $lang['round_off'			]	=		'Round Off';
-$lang['grand_total'			]	=		'Grand Total';
+$lang['grand_total'			]	=		'Total';
 $lang['previous_payments_information'			]	=		'Previous Payments Information';
 $lang['date'			]	=		'Date';
 $lang['payment_type'			]	=		'Payment Type';
@@ -229,13 +229,13 @@ $lang['new_user'			]	=		'New User';
 $lang['pan_number'			]	=		'PAN Number';
 $lang['bank_details'			]	=		'Bank Details';
 /* 27-05-2019*/
-$lang['customer_address'			]	=		'Customer Address';
-$lang['name'			]	=		'Name';
-$lang['customer_signature'			]	=		'Customer Signature';
-$lang['authorised_signature'			]	=		'Authorised Signature';
-$lang['supplier_address'			]	=		'Supplier Address';
-$lang['shipping_address'			]	=		'Shipping Address';
-$lang['supplier_signature'			]	=		'Supplier Signature';
+$lang['customer_address'			]	=		'Client Address';
+$lang['name'			]	=		'Nom';
+$lang['customer_signature'			]	=		'Signature du Client';
+$lang['authorised_signature'			]	=		'Signature Authorisé';
+$lang['supplier_address'			]	=		'Address du Fournisseur';
+$lang['shipping_address'			]	=		'Address de Livraison';
+$lang['supplier_signature'			]	=		'Signature du Fournisseur';
 /*28-05-2019*/
 $lang['edit_user'			]	=		'Edit User';
 /*v1.2*/
@@ -450,21 +450,21 @@ $lang['customer_payments'				]	=		'Customer Payments';
 $lang['supplier_payments'				]	=		'Supplier Payments';
 $lang['due'								]	=		'Due';
 /*1.6.6*/
-$lang['qty'								]	=		'Qty';
+$lang['qty'								]	=		'Qté';
 $lang['invoice_terms_and_conditions'	]	=		'Invoice Terms and Conditions';
 $lang['upi_code'						]	=		'UPI Code';
 $lang['pay_by_upi'						]	=		'Pay by UPI';
 $lang['upi_id'							]	=		'UPI Id';
-$lang['sl_no'							]	=		'Sl.No.';
-$lang['description_of_goods'			]	=		'Description of Goods';
-$lang['hsn/sac'							]	=		'HSN/SAC';
-$lang['tax_rate'						]	=		'Tax Rate';
+$lang['sl_no'							]	=		'No.';
+$lang['description_of_goods'			]	=		'Produits';
+$lang['hsn/sac'							]	=		'Ref';
+$lang['tax_rate'						]	=		'TVA';
 $lang['rate'							]	=		'Rate';
-$lang['amount'							]	=		'Amount';
+$lang['amount'							]	=		'montant';
 $lang['authorised_signatory'			]	=		'Authorised Signatory';
-$lang['terms_and_conditions'			]	=		'Terms & Conditions';
+$lang['terms_and_conditions'			]	=		'Terms et Conditions';
 /*1.7*/
-$lang['stock_value'						]	=		'Stock Value';
+$lang['stock_value'						]	=		'Valeur du Stock';
 /*1.7.1*/
 $lang['show_upi_code_on_invoice'		]	=		'Show UPI Code on Invoice';
 /*1.7.2*/
@@ -477,15 +477,15 @@ $lang['todays_total_sales'				]	=		'Todays Total Sales';
 $lang['todays_total_expense'			]	=		'Todays Total Expense';
 $lang['today_payment_received'			]	=		'Today Payment Received';
 $lang['before_discount'					]	=		'Before Discount';
-$lang['disc.'							]	=		'Disc.';//Discount
-$lang['tax_amt'							]	=		'Tax Amt';//Tax Amount
+$lang['disc.'							]	=		'Prom.';//Discount
+$lang['tax_amt'							]	=		'TVA mt';//Tax Amount
 /*1.7.3*/
 $lang['language'						]	=		'Language';
 $lang['seller'							]	=		'Seller';
 /*1.7.4*/
-$lang['invoice_paid'					]	=		'Invoice Paid';
-$lang['invoice_due'						]	=		'Invoice Due';
-$lang['customer_total_due'				]	=		'Customer Total Due';
+$lang['invoice_paid'					]	=		'Montant Payer';
+$lang['invoice_due'						]	=		'Reste à Payer';
+$lang['customer_total_due'				]	=		'Client total dû';
 /*1.5.1*/
 $lang['tax_group'						]	=		'Tax Group';
 $lang['new_tax_group'					]	=		'New Tax Group';

@@ -166,7 +166,7 @@ body { margin: 5px; }
 <caption>
       <center>
         <span style="font-size: 18px;text-transform: uppercase;">
-          Tax Invoice
+          Facture
         </span>
       </center>
 </caption>
@@ -205,13 +205,13 @@ body { margin: 5px; }
                     
                         <tr>
                           <td colspan="4">
-                            Invoice No.<br>
+                            N° Facture<br>
                             <span style="font-size: 10px;">
                               <b><?php echo "$sales_code"; ?></b>
                             </span>
                           </td>
                           <td colspan="4">
-                            Dated<br>
+                            Date<br>
                             <span style="font-size: 10px;">
                               <b><?php echo show_date($sales_date); ?></b>
                             </span>
@@ -229,12 +229,7 @@ body { margin: 5px; }
                         
                         <tr>
                           <td colspan="8">
-                            <span>
-                                <b><?= $this->lang->line('bank_details'); ?></b><br/>
-                              </span>
-                              <span style="font-size: 10px;">
-                                  <?= nl2br($bank_details);  ?>
-                                </span>
+                            
                           </td>
                         </tr>
 
