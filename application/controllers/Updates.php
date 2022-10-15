@@ -225,7 +225,7 @@ class Updates extends CI_Controller {
 			$q1 = $this->db->query("ALTER TABLE `db_sitesettings` ADD COLUMN `sales_invoice_format_id` INT(5) NULL AFTER `change_return`");if(!$q1){ echo "failed"; exit();}
 			$q1 = $this->db->query("UPDATE `db_sitesettings` SET `sales_invoice_format_id` = '1' WHERE `id` = '1'");if(!$q1){ echo "failed"; exit();}
 			$q1 = $this->db->query("ALTER TABLE `db_sitesettings` ADD COLUMN `sales_invoice_footer_text` TEXT NULL AFTER `sales_invoice_format_id`");if(!$q1){ echo "failed"; exit();}
-			$q1 = $this->db->query("UPDATE `db_sitesettings` SET `sales_invoice_footer_text` = ' This is footer text. You can set it from Site Settings.' WHERE `id` = '1'");if(!$q1){ echo "failed"; exit();}
+			$q1 = $this->db->query("UPDATE `db_sitesettings` SET `sales_invoice_footer_text` = ' ' WHERE `id` = '1'");if(!$q1){ echo "failed"; exit();}
 			
 			
 		}
