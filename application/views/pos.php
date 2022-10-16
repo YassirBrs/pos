@@ -86,7 +86,7 @@
     <nav class="navbar navbar-static-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="<?php echo $base_url; ?>dashboard" class="navbar-brand" title="Go to Dashboard!"><b class="hidden-xs"><?php  echo $SITE_TITLE;?></b><b class="hidden-lg">POS</b></a>
+          <a href="<?php echo $base_url; ?>dashboard" class="navbar-brand" title="Allez au Dashboard!"><b class="hidden-xs"><?php  echo $SITE_TITLE;?></b><b class="hidden-lg">POS</b></a>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
             <i class="fa fa-bars"></i>
           </button>
@@ -223,13 +223,13 @@
               <div class="row" >
                 <div class="col-md-12" >
                 <div class="col-md-4">
-                  <h3 class="box-title text-primary"><i class="fa fa-shopping-cart text-aqua"></i> Sales Invoice</h3>
+                  <h3 class="box-title text-primary"><i class="fa fa-shopping-cart text-aqua"></i> Facture de vente</h3>
                 </div>
                   
                 <?php if(isset($sales_id)): ?>
                   <?php if($CI->permissions('sales_add')) { ?>
                   <div class="col-md-4 pull-right">
-                    <a href='<?= $base_url;?>pos' class="btn btn-primary pull-right">New Invoice</a>
+                    <a href='<?= $base_url;?>pos' class="btn btn-primary pull-right">Nouvelle facture</a>
                   </div>
                   <?php } ?>
                 <?php endif; ?>
@@ -260,7 +260,7 @@
                     <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title">Set Discount</h4>
+                      <h4 class="modal-title">Définir la remise</h4>
                     </div>
                     <div class="modal-body">
                       <?php 
@@ -271,7 +271,7 @@
                           <div class="col-md-6">
                             <div class="box-body">
                               <div class="form-group">
-                                <label for="discount_input">Discount</label>
+                                <label for="discount_input">Remise</label>
                                 <input type="text" class="form-control" id="discount_input" name="discount_input" placeholder="" value="<?=$discount_input?>">
                               </div>
                             </div>
@@ -279,10 +279,10 @@
                           <div class="col-md-6">
                             <div class="box-body">
                               <div class="form-group">
-                                <label for="discount_type">Discount Type</label>
+                                <label for="discount_type">Type de Remise</label>
                                 <select class="form-control" id='discount_type' name="discount_type">
                                   <option value='in_percentage'>Per%</option>
-                                  <option value='in_fixed'>Fixed</option>
+                                  <option value='in_fixed'>Fixer</option>
                                 </select>
                               </div>
                             </div>
@@ -291,8 +291,8 @@
                      
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary discount_update">Update</button>
+                      <button type="button" class="btn btn-warning" data-dismiss="modal">Fermer</button>
+                      <button type="button" class="btn btn-primary discount_update">Modifier</button>
                     </div>
                   </div>
                   <!-- /.modal-content -->
@@ -335,7 +335,7 @@
                          else
                          {
                             ?>
-                            <option value="">No Records Found</option>
+                            <option value="">No Records Trouver</option>
                             <?php
                          }
                         ?>
@@ -347,10 +347,10 @@
                   
                 </div>
                 <div class="col-md-6">
-                  <div class="input-group">
+                  <!-- <div class="input-group">
                     <span class="input-group-addon" title="Select Items"><i class="fa fa-barcode"></i></span>
                      <input type="text" class="form-control" placeholder="Item name/Barcode/Itemcode [Shift+S]" id="item_search">
-                  </div>
+                  </div> -->
                 </div>                
               </div><!-- row end -->
               <br>
@@ -446,28 +446,28 @@
                   <div class="col-md-12 text-right">
 
                     <div class="col-sm-3">
-                      <button type="button" id="hold_invoice" name="" class="btn bg-maroon btn-block btn-flat btn-lg" title="Hold Invoice [Shift+H]">
+                      <button type="button" id="hold_invoice" name="" class="btn bg-maroon btn-block btn-flat btn-lg" title="Tenir Facture [Shift+H]">
                       <i class="fa fa-hand-paper-o" aria-hidden="true"></i>
-                       Hold
+                       Tenir
                     </button>
                     </div>
                     <div class="col-sm-3">
-                      <button type="button" id="" name="" class="btn btn-primary btn-block btn-flat btn-lg show_payments_modal" title="Multiple Payments [Shift+M]">
+                      <button type="button" id="" name="" class="btn btn-primary btn-block btn-flat btn-lg show_payments_modal" title="Multiple Paiements [Shift+M]">
                             <i class="fa fa-credit-card" aria-hidden="true"></i>
                              Multiple
                           </button>
                     </div>
                     <div class="col-sm-3">
-                      <button type="button" id="<?php echo "show_cash_modal";?>" name="" class="btn btn-success btn-block btn-flat btn-lg shift_c" title="By Cash & Save [Shift+C]">
+                      <button type="button" id="<?php echo "show_cash_modal";?>" name="" class="btn btn-success btn-block btn-flat btn-lg shift_c" title="Par Cash et Enregistrer [Shift+C]">
                             <i class="fa fa-money" aria-hidden="true"></i>
                              <?php echo $btn_name;?>
                           </button>
                     </div>
 
                     <div class="col-sm-3">
-                      <button type="button" id="pay_all" name="" class="btn bg-purple btn-block btn-flat btn-lg shift_a" title="By Cash & Save [Shift+A]">
+                      <button type="button" id="pay_all" name="" class="btn bg-purple btn-block btn-flat btn-lg shift_a" title="Par Cash et Enregistrer [Shift+A]">
                             <i class="fa fa-money" aria-hidden="true"></i>
-                             Pay All
+                            Payer tout
                           </button>
                     </div>
                     
@@ -496,7 +496,7 @@
                       <?php
                       $query1="select * from db_category where status=1";
                       $q1=$this->db->query($query1);
-                      echo '<option value="">All Categories</option>';
+                      echo '<option value="">Toutes catégories</option>';
                       if($q1->num_rows($q1)>0)
                        {   
                            foreach($q1->result() as $res1)
@@ -507,13 +507,13 @@
                        else
                        {
                           ?>
-                          <option value="">No Records Found</option>
+                          <option value="">No Records Trouver</option>
                           <?php
                        }
                       ?>
                     </select>
                           <span class="input-group-btn">
-                            <button type="button" class="btn text-blue btn-flat reset_categories" title="Reset Brand" data-toggle="tooltip" data-placement="top">
+                            <button type="button" class="btn text-blue btn-flat reset_categories" title="Reset Catégorie" data-toggle="tooltip" data-placement="top">
                               <i class="fa fa-undo"></i>
                             </button>
                           </span>
@@ -525,7 +525,7 @@
                       <?php
                       $query1="select * from db_brands where status=1";
                       $q1=$this->db->query($query1);
-                      echo '<option value="">All Brands</option>';
+                      echo '<option value="">Toutes marques</option>';
                       if($q1->num_rows($q1)>0)
                        {   
                            foreach($q1->result() as $res1)
@@ -536,13 +536,13 @@
                        else
                        {
                           ?>
-                          <option value="">No Records Found</option>
+                          <option value="">No Records Trouver</option>
                           <?php
                        }
                       ?>
                     </select>
                           <span class="input-group-btn">
-                            <button type="button" class="btn text-blue btn-flat reset_brands" title="Reset Brand" data-toggle="tooltip" data-placement="top">
+                            <button type="button" class="btn text-blue btn-flat reset_brands" title="Reset Marque" data-toggle="tooltip" data-placement="top">
                               <i class="fa fa-undo"></i>
                             </button>
                           </span>
@@ -565,7 +565,7 @@
                             </section>
                             <div class="ajax-load text-center" style="display:none;">
                                 <button type="button" class="btn btn-default btn-lrg ajax" title="Ajax Request">
-                                <i class="fa fa-spin fa-refresh"></i>&nbsp; Loading More Data
+                                <i class="fa fa-spin fa-refresh"></i>&nbsp; Chargement de plus de données
                               </button>
                               </div>
                          
@@ -1162,8 +1162,8 @@ $("#item_search").autocomplete({
                 var result;
                 result = [
                     {
-                        //label: 'No Records Found '+data.term,
-                        label: 'No Records Found ',
+                        //label: 'No Records Trouver '+data.term,
+                        label: 'No Records Trouver ',
                         value: ''
                     }
                 ];

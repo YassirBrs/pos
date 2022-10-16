@@ -93,7 +93,7 @@
                      else
                      {
                         ?>
-                        <option value="">No Records Found</option>
+                        <option value="">No Records Trouver</option>
                         <?php
                      }
                     ?>
@@ -121,7 +121,7 @@
                      else
                      {
                         ?>
-                        <option value="">No Records Found</option>
+                        <option value="">No Records Trouver</option>
                         <?php
                      }
                     ?>
@@ -161,7 +161,7 @@
          
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Fermer</button>
         <button type="button" class="btn btn-primary add_supplier">Save</button>
       </div>
     </div>

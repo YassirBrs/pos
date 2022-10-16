@@ -32,7 +32,7 @@
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Sign in to start your session</p>
+    <p class="login-box-msg">Log in</p>
      <div class="text-danger tex-center"><?php echo $this->session->flashdata('failed'); ?></div>
 	   <div class="text-success tex-center"><?php echo $this->session->flashdata('success'); ?></div>
          
@@ -56,17 +56,16 @@
         </div>
         <!-- /.col -->
         <div class="col-xs-4">
-          <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+          <button type="submit" class="btn btn-primary btn-block btn-flat">Log In</button>
         </div>
         <!-- /.col -->
       </div>
        
 	   
     </form>
-    <a href="login/forgot_password">I forgot my password</a><br>
+    <a href="login/forgot_password">Mot de pass oublier</a><br>
     <div class="row">
       <div class="col-md-12 text-right">
-        <p style='font-style: italic;'>Version <?=app_version();?></p>   
       </div>
     </div>
     

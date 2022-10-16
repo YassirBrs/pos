@@ -18,7 +18,7 @@
     <section class="content-header">
       <h1>
         <?= $this->lang->line('sms_templates_list'); ?>
-        <small>View/Search Template</small>
+        <!-- <small>View/Search Template</small> -->
       </h1>
       <ol class="breadcrumb">
         <li><a href="<?php echo $base_url; ?>dashboard"><i class="fa fa-dashboard"></i> Home</a></li>

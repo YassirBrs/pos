@@ -50,7 +50,7 @@
                              }
                            }
                            else{
-                              echo "No Records Found";
+                              echo "No Records Trouver";
                            }
                           ?>
                       </select>
@@ -111,7 +111,7 @@
                            }
                          }
                          else{
-                            echo "No Records Found";
+                            echo "No Records Trouver";
                          }
                         ?>
                     </select>
@@ -222,7 +222,7 @@
         
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Fermer</button>
         <button type="button" class="btn bg-maroon btn-lg make_sale btn-lg" onclick="save()"><i class="fa  fa-save "></i> Save</button>
         <button type="button" class="btn btn-success btn-lg make_sale btn-lg" onclick="save(true)"><i class="fa  fa-print "></i> Save & Print</button>
 

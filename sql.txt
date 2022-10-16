@@ -2,10 +2,16 @@ UPDATE `db_sitesettings` SET `time_format` = '24' WHERE `db_sitesettings`.`id` =
 UPDATE `db_sitesettings` SET `site_name` = 'Inventory' WHERE `db_sitesettings`.`id` = 1; 
 UPDATE `db_sitesettings` SET `timezone` = 'Africa/Casablanca' WHERE `db_sitesettings`.`id` = 1; 
 UPDATE `db_company` SET `city` = 'Berkane' WHERE `db_company`.`id` = 1; 
+UPDATE `db_currency` SET `symbol` = 'Dh' WHERE `db_currency`.`id` = 20;
+UPDATE `db_sitesettings` SET `currency_id` = '20' WHERE `db_sitesettings`.`id` = 1;
 DELETE FROM `db_currency` WHERE `db_currency`.`id` = 1;
 DELETE FROM `db_currency` WHERE `db_currency`.`id` = 2;
 DELETE FROM `db_currency` WHERE `db_currency`.`id` = 3;
 DELETE FROM `db_currency` WHERE `db_currency`.`id` = 4;
+DELETE FROM `db_currency` WHERE `db_currency`.`id` = 5;
+DELETE FROM `db_currency` WHERE `db_currency`.`id` = 29;
+DELETE FROM `db_currency` WHERE `db_currency`.`id` = 51;
+DELETE FROM `db_currency` WHERE `db_currency`.`id` = 53;
 DELETE FROM `db_currency` WHERE `db_currency`.`id` = 6;
 DELETE FROM `db_currency` WHERE `db_currency`.`id` = 7;
 DELETE FROM `db_currency` WHERE `db_currency`.`id` = 8;
@@ -100,4 +106,5 @@ DELETE FROM `db_states` WHERE `db_states`.`id` = 51;
 DELETE FROM `db_states` WHERE `db_states`.`id` = 53;
 
 UPDATE `db_country` SET `country` = 'Maroc' WHERE `db_country`.`id` = 1; 
-
+DELETE FROM db_country WHERE `db_country`.`id` = 2;
+UPDATE `db_states` SET `state` = 'Oriental', `country` = 'Maroc' WHERE `db_states`.`id` = 52;

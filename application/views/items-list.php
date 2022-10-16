@@ -22,7 +22,7 @@
     <section class="content-header">
       <h1>
         <?=$page_title;?>
-        <small>View/Search Items</small>
+        <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="<?php echo $base_url; ?>dashboard"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -60,7 +60,7 @@
                                 else
                                 {
                                    ?>
-                            <option value="">No Records Found</option>
+                            <option value="">No Records Trouver</option>
                             <?php
                                }
                                ?>
@@ -82,7 +82,7 @@
                                 else
                                 {
                                    ?>
-                            <option value="">No Records Found</option>
+                            <option value="">No Records Trouver</option>
                             <?php
                                }
                                ?>

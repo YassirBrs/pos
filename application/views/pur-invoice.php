@@ -347,12 +347,12 @@
                                 echo "<tr class='text-right text-bold'><td colspan='4' >Total</td><td>".$CI->currency(number_format($total_paid,2,'.',''))."</td></tr>";
                               }
                               else{
-                                echo "<tr><td colspan='5' class='text-center text-bold'>No Previous Payments Found!!</td></tr>";
+                                echo "<tr><td colspan='5' class='text-center text-bold'>Aucun paiement précédent trouvé !!</td></tr>";
                               }
 
                             }
                             else{
-                              echo "<tr><td colspan='5' class='text-center text-bold'>Payments Pending!!</td></tr>";
+                              echo "<tr><td colspan='5' class='text-center text-bold'>Paiements en attente !!</td></tr>";
                             }
                           ?>
                        </tbody>

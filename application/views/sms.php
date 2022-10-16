@@ -57,7 +57,7 @@
             
               <button type="button" id="send" class="btn btn-success" title="Send SMS">Send</button>
             
-            <a href='<?php echo $base_url; ?>dashboard'><button type="button" class="btn btn-danger" title="Go Dashboard">Close</button></a>
+            <a href='<?php echo $base_url; ?>dashboard'><button type="button" class="btn btn-danger" title="Allez au Dashboard">Fermer</button></a>
               </div>
             </form>
           </div>

@@ -123,7 +123,7 @@
                                               else
                                               {
                                                  ?>
-                                          <option value="">No Records Found</option>
+                                          <option value="">No Records Trouver</option>
                                           <?php
                                              }
                                              ?>
@@ -186,7 +186,7 @@
                                               else
                                               {
                                                  ?>
-                                          <option value="">No Records Found</option>
+                                          <option value="">No Records Trouver</option>
                                           <?php
                                              }
                                              ?>
@@ -204,10 +204,10 @@
                                     <div class="box-info">
                                       <div class="box-header">
                                         <div class="col-md-8 col-md-offset-2 d-flex justify-content" >
-                                          <div class="input-group">
+                                          <!-- <div class="input-group">
                                                 <span class="input-group-addon" title="Select Items"><i class="fa fa-barcode"></i></span>
                                                  <input type="text" class="form-control " placeholder="Item name/Barcode/Itemcode" id="item_search">
-                                              </div>
+                                              </div> -->
                                         </div>
                                       </div>
                                       <div class="box-body">
@@ -278,7 +278,7 @@
                                                     else
                                                     {
                                                        ?>
-                                                <option value="">No Records Found</option>
+                                                <option value="">No Records Trouver</option>
                                                 <?php
                                                    }
                                                    ?>
@@ -420,12 +420,12 @@
                                                       $CI->currency(number_format($total_paid,2,'.',''))."</td><td></td></tr>";
                                                     }
                                                     else{
-                                                      echo "<tr><td colspan='6' class='text-center text-bold'>No Previous Payments Found!!</td></tr>";
+                                                      echo "<tr><td colspan='6' class='text-center text-bold'>Aucun paiement précédent trouvé !!</td></tr>";
                                                     }
 
                                                   }
                                                   else{
-                                                    echo "<tr><td colspan='6' class='text-center text-bold'>Payments Pending!!</td></tr>";
+                                                    echo "<tr><td colspan='6' class='text-center text-bold'>Paiements en attente !!</td></tr>";
                                                   }
                                                 ?>
                                              </tbody>
@@ -519,7 +519,7 @@
                                     <button type="button" id="<?php echo $btn_id;?>" class="btn bg-maroon btn-block btn-flat btn-lg payments_modal" title="Save Data"><?php echo $btn_name;?></button>
                                  </div>
                                  <div class="col-sm-3"><a href="<?= base_url()?>dashboard">
-                                    <button type="button" class="btn bg-gray btn-block btn-flat btn-lg" title="Go Dashboard">Close</button>
+                                    <button type="button" class="btn bg-gray btn-block btn-flat btn-lg" title="Allez au Dashboard">Fermer</button>
                                   </a>
                                 </div>
                               </center>

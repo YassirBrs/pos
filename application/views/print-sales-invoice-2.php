@@ -289,9 +289,7 @@ body{
     <td colspan="1" style="text-align: right;" ><b><?php echo number_format(($round_off),2,'.',''); ?></b></td>
   </tr>
   <tr>
-    <td colspan="8">
-      <?php echo "<span class='amt-in-word'>Amount in words: <i style='font-weight:bold;'>".no_to_words(($grand_total))." Only</i></span>"; ?>
-    </td>
+    
     <td colspan="1" style="text-align: right;"><b><?= $this->lang->line('grand_total'); ?></b></td>
     <td colspan="1" style="text-align: right;" ><b><?php echo number_format(($grand_total),2,'.',''); ?></b></td>
   </tr>

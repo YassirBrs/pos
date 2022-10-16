@@ -19,7 +19,7 @@
     <section class="content-header">
       <h1>
         <?= $this->lang->line('payment_types_list'); ?>
-        <small>View/Search Records</small>
+        <!-- <small>View/Search Records</small> -->
       </h1>
       <ol class="breadcrumb">
         <li><a href="<?php echo $base_url; ?>dashboard"><i class="fa fa-dashboard"></i> Home</a></li>

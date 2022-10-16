@@ -139,7 +139,7 @@
              else
              {
                 ?>
-                <option value="">No Records Found</option>
+                <option value="">No Records Trouver</option>
                 <?php
              }
             ?>
@@ -167,7 +167,7 @@
              else
              {
                 ?>
-                <option value="">No Records Found</option>
+                <option value="">No Records Trouver</option>
                 <?php
              }
             ?>
@@ -230,7 +230,7 @@
                                     <button type="button" id="<?php echo $btn_id;?>" class=" btn btn-block btn-success" title="Save Data"><?php echo $btn_name;?></button>
                                  </div>
                                  <div class="col-sm-3">
-                                    <button type="button" class="col-sm-3 btn btn-block btn-warning close_btn" title="Go Dashboard">Close</button>
+                                    <button type="button" class="col-sm-3 btn btn-block btn-warning close_btn" title="Allez au Dashboard">Fermer</button>
                                  </div>
                               </div>
                            </div>

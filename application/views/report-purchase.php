@@ -76,7 +76,7 @@
                                            else
                                            {
                                               ?>
-                                       <option value="">No Records Found</option>
+                                       <option value="">No Records Trouver</option>
                                        <?php
                                           }
                                           ?>
@@ -105,7 +105,7 @@
                                  </div>
                                  <div class="col-sm-3">
                                     <a href="<?=base_url('dashboard');?>">
-                                    <button type="button" class="col-sm-3 btn btn-block btn-warning close_btn" title="Go Dashboard">Close</button>
+                                    <button type="button" class="col-sm-3 btn btn-block btn-warning close_btn" title="Allez au Dashboard">Fermer</button>
                                     </a>
                                  </div>
                               </div>

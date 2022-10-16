@@ -9,7 +9,7 @@
                 margin: 10px 20px 10px 20px;
             }
 table, th, td {
-    border: 0.5pt solid #0070C0;
+    border: 0.5pt solid #949494;
     border-collapse: collapse;   
 
 }
@@ -426,13 +426,13 @@ body { margin: 5px; }
 
   <tr>
     <td colspan="16">
-<?php
+<!-- <?php
      
       $currency_code = $this->db->select("currency_code")->where('id',$currency_id)->get("db_currency")->row()->currency_code;
 
-      echo "<span class='amt-in-word'>Amount in words: <i style='font-weight:bold;'>".$currency_code." ".no_to_words($grand_total)." Only</i></span>";
+      // echo "<span class='amt-in-word'>Amount in words: <i style='font-weight:bold;'>".$currency_code." ".no_to_words($grand_total)." Only</i></span>";
 
-      ?>
+      ?> -->
   
 </td>
   </tr>

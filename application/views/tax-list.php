@@ -19,7 +19,7 @@
     <section class="content-header">
       <h1>
         <?= $this->lang->line('tax_list'); ?>
-        <small>View/Search <?= $this->lang->line('tax'); ?></small>
+        <!-- <small>View/Search <?= $this->lang->line('tax'); ?></small> -->
       </h1>
       <ol class="breadcrumb">
         <li><a href="<?php echo $base_url; ?>dashboard"><i class="fa fa-dashboard"></i> Home</a></li>

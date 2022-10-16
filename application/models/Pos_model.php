@@ -573,7 +573,7 @@ class Pos_model extends CI_Model {
 	      else{
 	      	
 	      	$str =$str."<tr>";
-	      		$str =$str.'<td colspan="4" class="text-danger text-center">No Records Found</td>';
+	      		$str =$str.'<td colspan="4" class="text-danger text-center">No Records Trouver</td>';
 	      	$str =$str.'</tr>';
 	      	
 	      }

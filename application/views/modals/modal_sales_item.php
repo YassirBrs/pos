@@ -55,7 +55,7 @@
                                              else
                                              {
                                                 ?>
-                                                <option value="">No Records Found</option>
+                                                <option value="">No Records Trouver</option>
                                                 <?php
                                              }
                                             ?>
@@ -94,7 +94,7 @@
             </div>
             <div class="modal-footer">
               <input type="hidden" id="popup_row_id">
-               <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Close</button>
+               <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Fermer</button>
                <button type="button" onclick="set_info()" class="btn bg-green btn-lg place_order btn-lg">Set<i class="fa  fa-check "></i></button>
             </div>
          </div>

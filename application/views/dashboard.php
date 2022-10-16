@@ -41,7 +41,7 @@
     <section class="content-header">
       <h1>
         <?=$page_title;?>
-        <small>Overall Information on Single Screen</small>
+        <!-- <small>Overall Information on Single Screen</small> -->
       </h1>
       <ol class="breadcrumb">
         <li class="active"><i class="fa fa-dashboard"></i> Home</li>

@@ -95,7 +95,7 @@
                         ?>
                         <input type="hidden" name="q_id" id="q_id" value="<?php echo $q_id;?>"/>
               <button type="button" id="<?php echo $btn_id;?>" class="btn  btn-success" title="Save Data"><?php echo $btn_name;?></button>
-						<a href='dashboard.php'><button type="button" class="btn btn-default" title="Go Dashboard">Close</button></a>
+						<a href='dashboard.php'><button type="button" class="btn btn-default" title="Allez au Dashboard">Fermer</button></a>
 					 </div>
 				   </div>
               </div>

@@ -44,7 +44,7 @@
           <!-- Horizontal Form -->
           <div class="box box-info ">
             <div class="box-header with-border">
-              <h3 class="box-title">Please Enter Valid Data</h3>
+              <h3 class="box-title">Veuillez saisir des données valides</h3>
             </div>
             <!-- /.box-header -->
              <!-- form start -->
@@ -116,7 +116,7 @@
                         ?>
               <button type="button" id="<?php echo $btn_id;?>" class="btn btn-success" title="Save Data"><?php echo $btn_name;?></button>
             
-            <a href='<?php echo $base_url; ?>dashboard'><button type="button" class="btn btn-danger" title="Go Dashboard">Close</button></a>
+            <a href='<?php echo $base_url; ?>dashboard'><button type="button" class="btn btn-danger" title="Allez au Dashboard">Fermer</button></a>
             </div>
            </div>  
             

@@ -72,7 +72,7 @@ class Reports_model extends CI_Model {
 		}
 		else{
 			echo "<tr>";
-			echo "<td class='text-center text-danger' colspan=14>No Records Found</td>";
+			echo "<td class='text-center text-danger' colspan=14>No Records Trouver</td>";
 			echo "</tr>";
 		}
 		
@@ -136,7 +136,7 @@ class Reports_model extends CI_Model {
 		}
 		else{
 			echo "<tr>";
-			echo "<td class='text-center text-danger' colspan=13>No Records Found</td>";
+			echo "<td class='text-center text-danger' colspan=13>No Records Trouver</td>";
 			echo "</tr>";
 		}
 		
@@ -210,7 +210,7 @@ class Reports_model extends CI_Model {
 		}
 		else{
 			echo "<tr>";
-			echo "<td class='text-center text-danger' colspan=14>No Records Found</td>";
+			echo "<td class='text-center text-danger' colspan=14>No Records Trouver</td>";
 			echo "</tr>";
 		}
 		
@@ -272,7 +272,7 @@ class Reports_model extends CI_Model {
 		}
 		else{
 			echo "<tr>";
-			echo "<td class='text-center text-danger' colspan=13>No Records Found</td>";
+			echo "<td class='text-center text-danger' colspan=13>No Records Trouver</td>";
 			echo "</tr>";
 		}
 		
@@ -326,7 +326,7 @@ class Reports_model extends CI_Model {
 		}
 		else{
 			echo "<tr>";
-			echo "<td class='text-center text-danger' colspan=13>No Records Found</td>";
+			echo "<td class='text-center text-danger' colspan=13>No Records Trouver</td>";
 			echo "</tr>";
 		}
 		
@@ -381,7 +381,7 @@ class Reports_model extends CI_Model {
 		}
 		else{
 			echo "<tr>";
-			echo "<td class='text-center text-danger' colspan=8>No Records Found</td>";
+			echo "<td class='text-center text-danger' colspan=8>No Records Trouver</td>";
 			echo "</tr>";
 		}
 		
@@ -446,7 +446,7 @@ class Reports_model extends CI_Model {
 		}
 		else{
 			echo "<tr>";
-			echo "<td class='text-center text-danger' colspan=13>No Records Found</td>";
+			echo "<td class='text-center text-danger' colspan=13>No Records Trouver</td>";
 			echo "</tr>";
 		}
 		
@@ -511,7 +511,7 @@ class Reports_model extends CI_Model {
 		}
 		else{
 			echo "<tr>";
-			echo "<td class='text-center text-danger' colspan=13>No Records Found</td>";
+			echo "<td class='text-center text-danger' colspan=13>No Records Trouver</td>";
 			echo "</tr>";
 		}
 		
@@ -570,7 +570,7 @@ class Reports_model extends CI_Model {
 		}
 		else{
 			echo "<tr>";
-			echo "<td class='text-center text-danger' colspan=8>No Records Found</td>";
+			echo "<td class='text-center text-danger' colspan=8>No Records Trouver</td>";
 			echo "</tr>";
 		}
 		
@@ -627,7 +627,7 @@ class Reports_model extends CI_Model {
 		}
 		else{
 			echo "<tr>";
-			echo "<td class='text-center text-danger' colspan=6>No Records Found</td>";
+			echo "<td class='text-center text-danger' colspan=6>No Records Trouver</td>";
 			echo "</tr>";
 		}
 		
@@ -686,7 +686,7 @@ class Reports_model extends CI_Model {
 		}
 		else{
 			echo "<tr>";
-			echo "<td class='text-center text-danger' colspan=8>No Records Found</td>";
+			echo "<td class='text-center text-danger' colspan=8>No Records Trouver</td>";
 			echo "</tr>";
 		}
 		
@@ -745,7 +745,7 @@ class Reports_model extends CI_Model {
 		}
 		else{
 			echo "<tr>";
-			echo "<td class='text-center text-danger' colspan=6>No Records Found</td>";
+			echo "<td class='text-center text-danger' colspan=6>No Records Trouver</td>";
 			echo "</tr>";
 		}
 		
@@ -788,7 +788,7 @@ class Reports_model extends CI_Model {
 		}
 		else{
 			echo "<tr>";
-			echo "<td class='text-center text-danger' colspan=6>No Records Found</td>";
+			echo "<td class='text-center text-danger' colspan=6>No Records Trouver</td>";
 			echo "</tr>";
 		}
 		
@@ -1251,7 +1251,7 @@ class Reports_model extends CI_Model {
 		}
 		else{
 			echo "<tr>";
-			echo "<td class='text-center text-danger' colspan=6>No Records Found</td>";
+			echo "<td class='text-center text-danger' colspan=6>No Records Trouver</td>";
 			echo "</tr>";
 		}
 		
@@ -1334,7 +1334,7 @@ class Reports_model extends CI_Model {
 		}
 		else{
 			echo "<tr>";
-			echo "<td class='text-center text-danger' colspan=7>No Records Found</td>";
+			echo "<td class='text-center text-danger' colspan=7>No Records Trouver</td>";
 			echo "</tr>";
 		}
 		
@@ -1372,7 +1372,7 @@ class Reports_model extends CI_Model {
 		}
 		else{
 			echo "<tr>";
-			echo "<td class='text-center text-danger' colspan=13>No Records Found</td>";
+			echo "<td class='text-center text-danger' colspan=13>No Records Trouver</td>";
 			echo "</tr>";
 		}
 		

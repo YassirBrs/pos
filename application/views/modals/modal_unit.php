@@ -32,7 +32,7 @@
                        
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-warning" data-dismiss="modal">Fermer</button>
                       <button type="button" class="btn btn-primary add_unit">Save</button>
                     </div>
                   </div>

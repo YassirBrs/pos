@@ -724,7 +724,7 @@ class Purchase_model extends CI_Model {
 		                           }
 		                         }
 		                         else{
-		                            echo "No Records Found";
+		                            echo "No Records Trouver";
 		                         }
 		                        ?>
 		                    </select>
@@ -753,7 +753,7 @@ class Purchase_model extends CI_Model {
 		    </div>
 		      </div>
 		      <div class="modal-footer">
-		        <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Fermer</button>
 		        <button type="button" onclick="save_payment(<?=$purchase_id;?>)" class="btn bg-green btn-lg place_order btn-lg payment_save">Save<i class="fa  fa-check "></i></button>
 		      </div>
 		    </div>
@@ -912,7 +912,7 @@ class Purchase_model extends CI_Model {
 										}
 									}
 									else{
-										echo "<tr><td colspan='7' class='text-danger text-center'>No Records Found</td></tr>";
+										echo "<tr><td colspan='7' class='text-danger text-center'>No Records Trouver</td></tr>";
 									}
 									?>
                                 </tbody>
@@ -929,7 +929,7 @@ class Purchase_model extends CI_Model {
 		    </div>
 		      </div>
 		      <div class="modal-footer">
-		        <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Fermer</button>
 		        
 		      </div>
 		    </div>

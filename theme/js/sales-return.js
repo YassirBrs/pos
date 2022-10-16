@@ -139,8 +139,8 @@ $("#item_search").autocomplete({
                 var result;
                 result = [
                     {
-                        //label: 'No Records Found '+data.term,
-                        label: 'No Records Found ',
+                        //label: 'No Records Trouver '+data.term,
+                        label: 'No Records Trouver ',
                         value: ''
                     }
                 ];

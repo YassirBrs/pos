@@ -30,7 +30,7 @@ $rowcount = $this->input->post('payment_row_count') +1;
                            }
                          }
                          else{
-                            echo "No Records Found";
+                            echo "No Records Trouver";
                          }
                         ?>
                     </select>
