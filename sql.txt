@@ -110,3 +110,4 @@ UPDATE `db_languages` SET `language` = 'Francais' WHERE `db_languages`.`id` = 1;
 UPDATE `db_country` SET `country` = 'Maroc' WHERE `db_country`.`id` = 1; 
 DELETE FROM db_country WHERE `db_country`.`id` = 2;
 UPDATE `db_states` SET `state` = 'Oriental', `country` = 'Maroc' WHERE `db_states`.`id` = 52;
+UPDATE `db_sitesettings` SET `sales_invoice_footer_text` = '' WHERE `db_sitesettings`.`id` = 1;

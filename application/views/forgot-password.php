@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title><?php print $SITE_TITLE; ?> | Forgot Password</title>
+  <title><?php print $SITE_TITLE; ?> | Mot de Pass Oublier</title>
   <link rel='shortcut icon' href='<?php echo $theme_link; ?>images/favicon.ico' />
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -32,7 +32,7 @@
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Forgot Password</p>
+    <p class="login-box-msg">Mot de Pass Oublier</p>
 	   <div class="text-danger tex-center"><?php echo $this->session->flashdata('failed'); ?></div>
          
     
@@ -44,14 +44,14 @@
       <div class="row">
         <!-- /.col -->
         <div class="col-md-4">
-          <button type="submit" class="btn btn-primary btn-block btn-flat">Submit</button>
+          <button type="submit" class="btn btn-primary btn-block btn-flat">Soumettre</button>
         </div>
         <!-- /.col -->
       </div>
        
 	  
     </form>
-    <a class="pull-right" href="../<?php $base_url;?>">Click here to Sign in</a><br>
+    <a class="pull-right" href="../<?php $base_url;?>">Cliquez ici pour vous connecter</a><br>
 
   </div>
   <!-- /.login-box-body -->
