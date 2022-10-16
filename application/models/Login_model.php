@@ -28,7 +28,7 @@ class Login_model extends CI_Model
 				        	 'role_name' => trim($query->row()->role_name),
 				        	);
 			$this->session->set_userdata($logdata);
-			$this->session->set_flashdata('success', 'Welcome '.ucfirst($query->row()->username)." !");
+			$this->session->set_flashdata('success', 'Bienvenue '.ucfirst($query->row()->username)." !");
 			return true;
 		}
 		else{

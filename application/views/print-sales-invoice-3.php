@@ -9,7 +9,7 @@
                 margin: 10px 20px 10px 20px;
             }
 table, th, td {
-    border: 0.5pt solid #949494;
+    /* border: 0.5pt solid #949494; */
     border-collapse: collapse;   
 
 }
@@ -162,7 +162,9 @@ body { margin: 5px; }
     
 
     ?>
-
+<br>
+<br>
+<br>
 <caption>
       <center>
         <span style="font-size: 18px;text-transform: uppercase;">
@@ -170,7 +172,9 @@ body { margin: 5px; }
         </span>
       </center>
 </caption>
-
+<br>
+<br>
+<br>
 <table autosize="1" style="overflow: wrap" id='mytable' align="center" width="100%" height='100%'  cellpadding="0" cellspacing="0"  >
 <!-- <table align="center" width="100%" height='100%'   > -->
   
@@ -281,9 +285,10 @@ body { margin: 5px; }
                           </td>
               </tr>
 
-
-
-
+<br>
+<br>
+<br>
+<br>
             
           </table>
       </th>

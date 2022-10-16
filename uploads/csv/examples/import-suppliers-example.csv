@@ -1,6 +1,6 @@
-Supplier Name,Mobile,Email,Phone,GST Number,TAX Number,Country Name,State Name,City,Postcode,Address,Opening Balance
-Supplier Name 1,99887878781,abc@gmail.com,8465655645,GST123,TAX123,India,Karnataka,Banglore,591222,AP:Kabbur Tq:Chikodi,0
-Supplier Name 2,99887878782,abc@gmail.com,8465655645,GST123,TAX123,India,Karnataka,Banglore,591222,AP:Kabbur Tq:Chikodi,0
-Supplier Name 3,99887878783,abc@gmail.com,8465655645,GST123,TAX123,India,Karnataka,Banglore,591222,AP:Kabbur Tq:Chikodi,0
-Supplier Name 4,99887878784,abc@gmail.com,8465655645,GST123,TAX123,India,Karnataka,Banglore,591222,AP:Kabbur Tq:Chikodi,0
-Supplier Name 5,99887878785,abc@gmail.com,8465655645,GST123,TAX123,India,Karnataka,Banglore,591222,AP:Kabbur Tq:Chikodi,0
+Nom de fournisseur,Mobile,Email,Phone,GST N°,TAX N°,Pays,Region,Ville,Code Postal,Address,Solde
+Fournisseur 1,99887878781,abc@gmail.com,8465655645,GST123,TAX123,Maroc,Oriental,Nador,591222,Rue 12 Av bab taza,0
+Fournisseur 2,99887878782,abc@gmail.com,8465655645,GST123,TAX123,Maroc,Oriental,Nador,591222,Rue 12 Av bab taza,0
+Fournisseur 3,99887878783,abc@gmail.com,8465655645,GST123,TAX123,Maroc,Oriental,Nador,591222,Rue 12 Av bab taza,0
+Fournisseur 4,99887878784,abc@gmail.com,8465655645,GST123,TAX123,Maroc,Oriental,Nador,591222,Rue 12 Av bab taza,0
+Fournisseur 5,99887878785,abc@gmail.com,8465655645,GST123,TAX123,Maroc,Oriental,Nador,591222,Rue 12 Av bab taza,0

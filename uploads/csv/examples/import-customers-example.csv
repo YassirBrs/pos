@@ -1,6 +1,6 @@
-Customer Name,Mobile,Email,Phone,GST Number,TAX Number,Country Name,State Name,City,Postcode,Address,Opening Balance
-Customer Name 1,99887878781,abc@gmail.com,8465655645,GST123,TAX123,India,Karnataka,Banglore,591222,AP:Kabbur Tq:Chikodi,0
-Customer Name 2,99887878782,abc@gmail.com,8465655645,GST123,TAX123,India,Karnataka,Banglore,591222,AP:Kabbur Tq:Chikodi,0
-Customer Name 3,99887878783,abc@gmail.com,8465655645,GST123,TAX123,India,Karnataka,Banglore,591222,AP:Kabbur Tq:Chikodi,0
-Customer Name 4,99887878784,abc@gmail.com,8465655645,GST123,TAX123,India,Karnataka,Banglore,591222,AP:Kabbur Tq:Chikodi,0
-Customer Name 5,99887878785,abc@gmail.com,8465655645,GST123,TAX123,India,Karnataka,Banglore,591222,AP:Kabbur Tq:Chikodi,0
+Nom du Client,Mobile,Email,Phone,GST N°,TAX N°,Pays,Region,Ville,Code Postal,Address,Solde
+Client 1,99887878781,abc@gmail.com,8465655645,GST123,TAX123,Maroc,Oriental,Nador,80000,Rue 12 Av bab taza,0
+Client 2,99887878782,abc@gmail.com,8465655645,GST123,TAX123,Maroc,Oriental,Nador,80000,Rue 12 Av bab taza,0
+Client 3,99887878783,abc@gmail.com,8465655645,GST123,TAX123,Maroc,Oriental,Nador,80000,Rue 12 Av bab taza,0
+Client 4,99887878784,abc@gmail.com,8465655645,GST123,TAX123,Maroc,Oriental,Nador,80000,Rue 12 Av bab taza,0
+Client 5,99887878785,abc@gmail.com,8465655645,GST123,TAX123,Maroc,Oriental,Nador,80000,Rue 12 Av bab taza,0
