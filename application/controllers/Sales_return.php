@@ -133,21 +133,21 @@ class Sales_return extends MY_Controller {
 											if($this->permissions('sales_return_view'))
 											$str2.='<li>
 												<a title="View Invoice" href="sales_return/invoice/'.$sales->id.'" >
-													<i class="fa fa-fw fa-eye text-blue"></i>View sales
+													<i class="fa fa-fw fa-eye text-blue"></i>Voir les ventes
 												</a>
 											</li>';
 
 											if($this->permissions('sales_return_edit'))
 											$str2.='<li>
 												<a title="Update Record ?" href="'.$str1.$sales->id.'">
-													<i class="fa fa-fw fa-edit text-blue"></i>Edit
+													<i class="fa fa-fw fa-edit text-blue"></i>Modifier
 												</a>
 											</li>';
 
 											if($this->permissions('sales_return_payment_view'))
 											$str2.='<li>
 												<a title="Pay" class="pointer" onclick="view_payments('.$sales->id.')" >
-													<i class="fa fa-fw fa-money text-blue"></i>View Payments
+													<i class="fa fa-fw fa-money text-blue"></i>Voir les Paiements
 												</a>
 											</li>';
 
@@ -161,7 +161,7 @@ class Sales_return extends MY_Controller {
 											if($this->permissions('sales_return_add') || $this->permissions('sales_return_edit'))
 											$str2.='<li>
 												<a title="Update Record ?" target="_blank" href="sales_return/print_invoice/'.$sales->id.'">
-													<i class="fa fa-fw fa-print text-blue"></i>Print
+													<i class="fa fa-fw fa-print text-blue"></i>Imprimer
 												</a>
 											</li>
 
@@ -174,7 +174,7 @@ class Sales_return extends MY_Controller {
 											if($this->permissions('sales_return_delete'))
 											$str2.='<li>
 												<a style="cursor:pointer" title="Delete Record ?" onclick="delete_return(\''.$sales->id.'\')">
-													<i class="fa fa-fw fa-trash text-red"></i>Delete
+													<i class="fa fa-fw fa-trash text-red"></i>Supprimer
 												</a>
 											</li>
 											

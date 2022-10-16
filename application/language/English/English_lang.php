@@ -461,7 +461,7 @@ $lang['hsn/sac'							]	=		'Ref';
 $lang['tax_rate'						]	=		'TVA';
 $lang['rate'							]	=		'Rate';
 $lang['amount'							]	=		'Montant';
-$lang['authorised_signatory'			]	=		'Authorised Signatory';
+$lang['authorised_signatory'			]	=		'Signataire autorisé';
 $lang['terms_and_conditions'			]	=		'Terms et Conditions';
 /*1.7*/
 $lang['stock_value'						]	=		'Valeur du Stock';

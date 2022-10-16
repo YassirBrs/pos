@@ -101,14 +101,14 @@
                       <?php if($CI->permissions('users_edit')) { ?>
                       <li>
                         <a title="Update Record ?" href="<?= $base_url; ?>users/edit/<?= $res1->id; ?>">
-                          <i class="fa fa-fw fa-edit text-blue"></i>Edit
+                          <i class="fa fa-fw fa-edit text-blue"></i>Modifier
                         </a>
                       </li>
                       <?php } ?>
                       <?php if($CI->permissions('users_delete') && $res1->id!=1) { ?>
                       <li>
                         <a style="cursor:pointer" title="Delete Record ?" onclick="delete_user(<?= $res1->id; ?>)">
-                          <i class="fa fa-fw fa-trash text-red"></i>Delete
+                          <i class="fa fa-fw fa-trash text-red"></i>Supprimer
                         </a>
                       </li>
                       <?php } ?>

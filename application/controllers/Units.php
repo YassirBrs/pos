@@ -104,14 +104,14 @@ class Units extends MY_Controller {
 											if($this->permissions('units_edit'))
 											$str2.='<li>
 												<a title="Editd Record ?" href="'.base_url('units/update/'.$unit->id).'">
-													<i class="fa fa-fw fa-edit text-blue"></i>Edit
+													<i class="fa fa-fw fa-edit text-blue"></i>Modifier
 												</a>
 											</li>';
 
 											if($this->permissions('units_delete'))
 											$str2.='<li>
 												<a style="cursor:pointer" title="Delete Record ?" onclick="delete_unit('.$unit->id.')">
-													<i class="fa fa-fw fa-trash text-red"></i>Delete
+													<i class="fa fa-fw fa-trash text-red"></i>Supprimer
 												</a>
 											</li>
 											

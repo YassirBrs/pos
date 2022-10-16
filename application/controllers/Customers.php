@@ -96,7 +96,7 @@ class Customers extends MY_Controller {
 											if($this->permissions('customers_edit')&& $customers->id!=1)
 											$str2.='<li>
 												<a title="Edit Record ?" href="customers/update/'.$customers->id.'">
-													<i class="fa fa-fw fa-edit text-blue"></i>Edit
+													<i class="fa fa-fw fa-edit text-blue"></i>Modifier
 												</a>
 											</li>';
 											if($this->permissions('sales_payment_add'))
@@ -114,7 +114,7 @@ class Customers extends MY_Controller {
 											if($this->permissions('customers_delete') && $customers->id!=1)
 											$str2.='<li>
 												<a style="cursor:pointer" title="Delete Record ?" onclick="delete_customers('.$customers->id.')">
-													<i class="fa fa-fw fa-trash text-red"></i>Delete
+													<i class="fa fa-fw fa-trash text-red"></i>Supprimer
 												</a>
 											</li>
 											

@@ -114,7 +114,7 @@ class Purchase extends MY_Controller {
 											if($this->permissions('purchase_edit'))
 											$str2.='<li>
 												<a title="Update Record ?" href="purchase/update/'.$purchase->id.'">
-													<i class="fa fa-fw fa-edit text-blue"></i>Edit
+													<i class="fa fa-fw fa-edit text-blue"></i>Modifier
 												</a>
 											</li>';
 
@@ -122,7 +122,7 @@ class Purchase extends MY_Controller {
 											$str2.='
 											<li>
 												<a title="Pay" class="pointer" onclick="view_payments('.$purchase->id.')" >
-													<i class="fa fa-fw fa-money text-blue"></i>View Payments
+													<i class="fa fa-fw fa-money text-blue"></i>Voir les Paiements
 												</a>
 											</li>';
 
@@ -136,7 +136,7 @@ class Purchase extends MY_Controller {
 											if($this->permissions('purchase_add') || $this->permissions('purchase_edit'))
 											$str2.='<li>
 												<a title="Update Record ?" target="_blank" href="purchase/print_invoice/'.$purchase->id.'">
-													<i class="fa fa-fw fa-print text-blue"></i>Print
+													<i class="fa fa-fw fa-print text-blue"></i>Imprimer
 												</a>
 											</li>
 											<li>
@@ -155,7 +155,7 @@ class Purchase extends MY_Controller {
 											if($this->permissions('purchase_delete'))
 											$str2.='<li>
 												<a style="cursor:pointer" title="Delete Record ?" onclick="delete_purchase(\''.$purchase->id.'\')">
-													<i class="fa fa-fw fa-trash text-red"></i>Delete
+													<i class="fa fa-fw fa-trash text-red"></i>Supprimer
 												</a>
 											</li>
 											

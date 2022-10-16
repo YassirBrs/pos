@@ -78,14 +78,14 @@ class Payment_types extends MY_Controller {
 											if($this->permissions('payment_types_edit'))
 											$str2.='<li>
 												<a title="Editd Record ?" href="'.base_url('payment_types/update/'.$payment_type->id).'">
-													<i class="fa fa-fw fa-edit text-blue"></i>Edit
+													<i class="fa fa-fw fa-edit text-blue"></i>Modifier
 												</a>
 											</li>';
 
 											if($this->permissions('payment_types_delete'))
 											$str2.='<li>
 												<a style="cursor:pointer" title="Delete Record ?" onclick="delete_payment_type('.$payment_type->id.')">
-													<i class="fa fa-fw fa-trash text-red"></i>Delete
+													<i class="fa fa-fw fa-trash text-red"></i>Supprimer
 												</a>
 											</li>
 											
