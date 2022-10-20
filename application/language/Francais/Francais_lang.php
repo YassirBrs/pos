@@ -456,13 +456,13 @@ $lang['upi_code'						]	=		'UPI Code';
 $lang['pay_by_upi'						]	=		'Payer par UPI';
 $lang['upi_id'							]	=		'UPI Id';
 $lang['sl_no'							]	=		'No.';
-$lang['description_of_goods'			]	=		'Produits';
+$lang['description_of_goods'			]	=		'Désignation';
 $lang['hsn/sac'							]	=		'Ref';
 $lang['tax_rate'						]	=		'TVA';
 $lang['rate'							]	=		'Rate';
 $lang['amount'							]	=		'Montant';
-$lang['authorised_signatory'			]	=		'Signataire autorisé';
-$lang['terms_and_conditions'			]	=		'Terms et Conditions';
+$lang['authorised_signatory'			]	=		'Signataire Autorisé';
+$lang['terms_and_conditions'			]	=		'Termes et Conditions';
 /*1.7*/
 $lang['stock_value'						]	=		'Valeur du Stock';
 /*1.7.1*/
@@ -478,14 +478,14 @@ $lang['todays_total_expense'			]	=		'Dépenses Totales d\'Aujourd\'hui';
 $lang['today_payment_received'			]	=		'Paiement Reçu Aujourd\'hui';
 $lang['before_discount'					]	=		'Avant Remise';
 $lang['disc.'							]	=		'Remise';//Discount
-$lang['tax_amt'							]	=		'TVA mt';//Tax Amount
+$lang['tax_amt'							]	=		'TVA';//Tax Amount
 /*1.7.3*/
 $lang['language'						]	=		'Langue';
 $lang['seller'							]	=		'Vendeur';
 /*1.7.4*/
 $lang['invoice_paid'					]	=		'Montant Payer';
 $lang['invoice_due'						]	=		'Reste à Payer';
-$lang['customer_total_due'				]	=		'Client total dû';
+$lang['customer_total_due'				]	=		'Total dû';
 /*1.5.1*/
 $lang['tax_group'						]	=		'Groupe Fiscaux';
 $lang['new_tax_group'					]	=		'Nouveau Groupe Fiscal';
@@ -496,7 +496,7 @@ $lang['system_settings'					]	=		'System Parametre';
 $lang['gst_tax_summary'					]	=		'Sommaire de la Taxe';
 $lang['single_unit_cost'				]	=		'Coût Unitaire';
 $lang['bill_to'							]	=		'Facturer à';
-$lang['hsn'								]	=		'HSN';
+$lang['hsn'								]	=		'Réference';
 /*1.7.7*/
 $lang['final_price'						]	=		'Prix Final';
 $lang['final_sales_price'				]	=		'Prix de Vente Final';
@@ -511,7 +511,7 @@ $lang['system_settings'					]	=		'System Parametre';
 $lang['gst_tax_summary'					]	=		'Sommaire de la Taxe';
 $lang['single_unit_cost'				]	=		'Coût Unitaire';
 $lang['bill_to'							]	=		'Facturer à';
-$lang['hsn'								]	=		'HSN';
+$lang['hsn'								]	=		'Réference';
 /*1.7.7*/
 $lang['final_price'						]	=		'Prix Final';
 $lang['final_sales_price'				]	=		'Prix de vente final';

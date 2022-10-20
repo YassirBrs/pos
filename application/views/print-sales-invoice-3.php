@@ -45,7 +45,7 @@ body{
 .bg-sky{
   background-color: #E8F3FD;
 }
-@page { size: A5 margin: 5px; }
+@page { size: A5 ;margin: 5px; }
 body { margin: 5px; }
 
  #clockwise {
@@ -208,25 +208,25 @@ body { margin: 5px; }
                     <table style="width: 100%;" class="style_hidden fixed_table">
                     
                         <tr>
-                          <td colspan="4">
+                          <td colspan="4" style='text-align:center; vertical-align:middle'>
                             N° Facture<br>
-                            <span style="font-size: 10px;">
+                            <span style="font-size: 8px;">
                               <b><?php echo "$sales_code"; ?></b>
                             </span>
                           </td>
-                          <td colspan="4">
+                          <td colspan="4" style='text-align:center; vertical-align:middle'>
                             Date<br>
-                            <span style="font-size: 10px;">
+                            <span style="font-size: 8px;">
                               <b><?php echo show_date($sales_date); ?></b>
                             </span>
                           </td>
                         </tr>
                         <tr>
                           <td colspan="8">
-                            Reference No.<br>
+                            <!-- Reference No.<br>
                             <span style="font-size: 10px;">
                               <b><?php echo "$reference_no"; ?></b>
-                            </span>
+                            </span> -->
                           </td>
                           
                         </tr>
@@ -248,7 +248,7 @@ body { margin: 5px; }
               <tr>
                 <!-- Bottom Half -->
                 <td colspan="8">
-                  <b><?= $this->lang->line('customer_address'); ?></b><br/>
+                  <!-- <b><?= $this->lang->line('shipping_address'); ?></b><br/>
                   <span style="font-size: 10px;">
                       <?php echo $this->lang->line('name').": ".$customer_name; ?><br/>
                         <?php echo (!empty(trim($customer_mobile))) ? $this->lang->line('mobile').": ".$customer_mobile."<br>" : '';?>
@@ -261,13 +261,13 @@ body { margin: 5px; }
                               <br>
                         <?php echo (!empty(trim($customer_email))) ? $this->lang->line('email').": ".$customer_email."<br>" : '';?>
                          <?php echo (!empty(trim($customer_gst_no))) ? $this->lang->line('gst_number').": ".$customer_gst_no."<br>" : '';?>
-                        <!--<?php echo (!empty(trim($customer_tax_number))) ? $this->lang->line('tax_number').": ".$customer_tax_number."<br>" : '';?> -->
-                  </span>
+                        <?php echo (!empty(trim($customer_tax_number))) ? $this->lang->line('tax_number').": ".$customer_tax_number."<br>" : '';?>
+                  </span> -->
                 </td>
 
                 <td colspan="8">
                             <span>
-                                <b><?= $this->lang->line('shipping_address'); ?></b><br/>
+                                <b><?= $this->lang->line('customer_address'); ?></b><br/>
                               </span>
                               <span style="font-size: 10px;">
                               <?php echo $this->lang->line('name').": ".$customer_name; ?><br/>
@@ -279,14 +279,12 @@ body { margin: 5px; }
                                       ?>
                                       <br>
                                 <?php echo (!empty(trim($customer_email))) ? $this->lang->line('email').": ".$customer_email."<br>" : '';?>
-                                 <?php echo (!empty(trim($customer_gst_no))) ? $this->lang->line('gst_number').": ".$customer_gst_no."<br>" : '';?>
-                                <!--<?php echo (!empty(trim($customer_tax_number))) ? $this->lang->line('tax_number').": ".$customer_tax_number."<br>" : '';?> -->
+                                 <!-- <?php echo (!empty(trim($customer_gst_no))) ? $this->lang->line('gst_number').": ".$customer_gst_no."<br>" : '';?> -->
+                                <?php echo (!empty(trim($customer_tax_number))) ? $this->lang->line('tax_number').": ".$customer_tax_number."<br>" : '';?>
                           </span>
                           </td>
               </tr>
 
-<br>
-<br>
 <br>
 <br>
             
@@ -364,7 +362,7 @@ body { margin: 5px; }
                   //echo "<td colspan='2' class='text-right'>".number_format($before_tax,2)."</td>";
                   //echo "<td class='text-right'>".$res2->price_per_unit."</td>";
                   
-                  echo "<td colspan='2' class='text-right'>".number_format($res2->total_cost,2)."</td>";
+                  echo "<td colspan='2' class='text-right'>".number_format($res2->total_cost,2)." Dhs</td>";
                   echo "</tr>";  
                   $tot_qty +=$res2->sales_qty;
                   $tot_sales_price +=$res2->price_per_unit;
@@ -388,45 +386,45 @@ body { margin: 5px; }
     <td colspan="8" class='text-center text-bold'><?= $this->lang->line('total'); ?></td>
     <td colspan="2" class='text-right' ><b><?php echo number_format(($tot_sales_price),2); ?></b></td>
     <td colspan="<?=$colspan_1?>" class='text-bold text-center'><?=number_format($tot_qty,2); ?></td>
-    <?php if(!is_tax_disabled()) { ?>
+    <!-- <?php if(!is_tax_disabled()) { ?> -->
     <td colspan="1" class='text-bold text-center'></td>
     <td colspan="1" class='text-right' ><b><?php echo number_format(($tot_tax_amt),2); ?></b></td>
-    <?php } ?>
+    <!-- <?php } ?> -->
     <td colspan="<?=$colspan_1?>" class='text-right' ><b><?php echo number_format(($tot_discount_amt),2); ?></b></td>
-    <td colspan="2" class='text-right' ><b><?php echo number_format(($tot_total_cost),2); ?></b></td>
+    <td colspan="2" class='text-right' ><b><?php echo number_format(($tot_total_cost),2); ?> Dhs</b></td>
   </tr>
   <tr>
     <td colspan="14" class='text-right'><b><?= $this->lang->line('subtotal'); ?></b></td>
-    <td colspan="2" class='text-right' ><b><?php echo number_format($tot_total_cost,2); ?></b></td>
+    <td colspan="2" class='text-right' ><b><?php echo number_format($tot_total_cost,2); ?> Dhs</b></td>
   </tr>
-
+  <tr>
+    <td colspan="14" class='text-right'><b><?= $this->lang->line('tax_rate'); ?></b></td>
+    <td colspan="2" class='text-right' ><b><?php echo number_format(($tot_tax_amt),2); ?> Dhs</b></td>
+  </tr>
 
   <tr>
     <td colspan="14" class='text-right'><b><?= $this->lang->line('other_charges'); ?></b></td>
-    <td colspan="2" class='text-right' ><b><?php echo number_format($other_charges_amt,2); ?></b></td>
+    <td colspan="2" class='text-right' ><b><?php echo number_format($other_charges_amt,2); ?> Dhs</b></td>
   </tr>
   
   <tr>
     <td colspan="14" class='text-right'><b><?= $this->lang->line('discount_on_all'); ?>(<?= $discount_to_all_input." ".$discount_to_all_type; ?>)</b></td>
-    <td colspan="2" class='text-right' ><b><?php echo number_format($tot_discount_to_all_amt,2); ?></b></td>
+    <td colspan="2" class='text-right' ><b><?php echo number_format($tot_discount_to_all_amt,2); ?> Dhs</b></td>
   </tr>
   
   <tr>
     <td colspan="14" class='text-right'><b><?= $this->lang->line('grand_total'); ?></b></td>
-    <td colspan="2" class='text-right' ><b><?php echo number_format($grand_total,2); ?></b></td>
+    <td colspan="2" class='text-right' ><b><?php echo number_format($grand_total,2); ?> Dhs</b></td>
   </tr>
 
   <tr>
     <td colspan="14" class='text-right'><b><?= $this->lang->line('invoice_paid'); ?></b></td>
-    <td colspan="2" class='text-right' ><b><?php echo number_format($paid_amount,2); ?></b></td>
+    <td colspan="2" class='text-right' ><b><?php echo number_format($paid_amount,2); ?> Dhs</b></td>
   </tr>
-  <tr>
-    <td colspan="14" class='text-right'><b><?= $this->lang->line('invoice_due'); ?></b></td>
-    <td colspan="2" class='text-right' ><b><?php echo number_format($grand_total-$paid_amount,2); ?></b></td>
-  </tr>
+  
   <tr>
     <td colspan="14" class='text-right'><b><?= $this->lang->line('customer_total_due'); ?></b></td>
-    <td colspan="2" class='text-right' ><b><?php echo number_format($total_due,2); ?></b></td>
+    <td colspan="2" class='text-right' ><b><?php echo number_format ($total_due,2); ?> Dhs</b></td>
   </tr>
 
   <tr>
@@ -435,16 +433,16 @@ body { margin: 5px; }
      
       $currency_code = $this->db->select("currency_code")->where('id',$currency_id)->get("db_currency")->row()->currency_code;
 
-      // echo "<span class='amt-in-word'>Amount in words: <i style='font-weight:bold;'>".$currency_code." ".no_to_words($grand_total)." Only</i></span>";
+       echo "<span class='amt-in-word'>Amount in words: <i style='font-weight:bold;'>".$currency_code." ".no_to_words($grand_total)." Only</i></span>";
 
       ?> -->
-  
+  <br><br><br><br><br>
 </td>
   </tr>
   <tr>
     <td colspan="16">
     <?php
-        echo "<span class='amt-in-word'>Note: <i style=''>".$sales_note."</i></span>";
+        // echo "<span class='amt-in-word'>Note: <i style=''>".$sales_note."</i></span>";
 
         ?>
     
@@ -455,6 +453,7 @@ body { margin: 5px; }
 
       <!-- T&C & Bank Details & signatories-->
       <tr>
+      
         <td colspan="16">
           <table width="100%" class="style_hidden fixed_table">
            
